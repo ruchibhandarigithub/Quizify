@@ -1,0 +1,80 @@
+{
+    "quizData": [
+        {
+            "questionId": 1,
+            "questionType": "Free Choice",
+            "question": "What is the capital of Australia?",
+            "answer": "Canberra",
+            "flagged": false
+        },
+        {
+            "questionId": 2,
+            "questionType": "Fillups",
+            "question": "The currency of Japan is {blank}.",
+            "answer": "Yen",
+            "flagged": false
+        },
+        {
+            "questionId": 3,
+            "questionType": "Sorting",
+            "question": "Sort these European countries alphabetically.",
+            "options": ["France", "Germany", "Italy", "Spain"],
+            "correctOrder": ["France", "Germany", "Italy", "Spain"],
+            "flagged": false
+        },
+        {
+            "questionId": 4,
+            "questionType": "Single Choice",
+            "question": "Which element has the chemical symbol 'O'?",
+            "options": ["Oxygen", "Gold", "Silver", "Carbon"],
+            "correctAnswer": "Oxygen",
+            "flagged": false
+        },
+        {
+            "questionId": 5,
+            "questionType": "Multiple Choice",
+            "question": "Which of the following are prime numbers?",
+            "options": [2, 4, 7, 10, 13],
+            "correctAnswers": [2, 7, 13],
+            "flagged": false
+        },
+        {
+            "questionId": 6,
+            "questionType": "Fillups",
+            "question": "The Great Wall of China is located in {blank}.",
+            "answer": "China",
+            "flagged": false
+        },
+        {
+            "questionId": 7,
+            "questionType": "Single Choice",
+            "question": "Who wrote 'Romeo and Juliet'?",
+            "options": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
+            "correctAnswer": "William Shakespeare",
+            "flagged": false
+        },
+        {
+            "questionId": 8,
+            "questionType": "Sorting",
+            "question": "Arrange these colors in rainbow order.",
+            "options": ["Green", "Blue", "Red", "Yellow"],
+            "correctOrder": ["Red", "Orange", "Yellow", "Green", "Blue"],
+            "flagged": false
+        },
+        {
+            "questionId": 9,
+            "questionType": "Free Choice",
+            "question": "Name three types of clouds.",
+            "answer": "Cumulus, Stratus, Cirrus",
+            "flagged": false
+        },
+        {
+            "questionId": 10,
+            "questionType": "Multiple Choice",
+            "question": "Which programming languages are statically typed?",
+            "options": ["JavaScript", "Python", "Java", "C++"],
+            "correctAnswers": ["Java", "C++"],
+            "flagged": false
+        }
+    ]
+}

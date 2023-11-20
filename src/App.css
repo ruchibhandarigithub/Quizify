@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.question {
+  margin-bottom: 20px;
+}
+.options {
+  list-style: none;
+  padding: 0;
+}
+.options li {
+  margin-bottom: 10px;
+}
+button {
+  background-color:#3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45a049;
+}
+.matrix-sorting-table {
+border-collapse: collapse;
+width: 100%;
+}
+
+.matrix-sorting-table th,
+.matrix-sorting-table td {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: center;
+}
+
+.sorting-list {
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: flex;
+flex-direction: column;
+}
+
+.sorting-list li {
+border: 1px solid #ddd;
+padding: 8px;
+margin: 4px 0;
+cursor: move;
+text-align: center;
+}
+.instructions{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-title {
+  text-align: center;
+  background-color: #3498db; /* Background color for the title box */
+  color: #fff; /* Text color for the title */
+  padding: 50px;
+}
+
+.quiz-title h1 {
+  font-size: 36px; /* Font size for the title */
+  margin: 0;
+}
+
+.instructions {
+  text-align: left; /* Align instructions to the left */
+  padding: 60px;
+  gap: 20px;
+}
+.fillups_input{
+  border-top: 0;
+  border-right: 0;
+  border-left:0;
+}
+
